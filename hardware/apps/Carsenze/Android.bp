@@ -1,0 +1,12 @@
+android_app {
+    name: "Carsenze",
+    platform_apis: true,
+    srcs: [
+        "src/**/*.java"
+    ],
+    static_libs: [
+        "vendor.hardware.carsenze-V1-java",
+        "androidx-constraintlayout_constraintlayout",
+        "androidx-constraintlayout_constraintlayout-solver",
+    ]
+}

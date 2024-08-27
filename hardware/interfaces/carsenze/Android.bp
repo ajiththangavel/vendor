@@ -1,0 +1,15 @@
+aidl_interface {
+    name: "vendor.hardware.carsenze",
+    vendor: true,
+    srcs: ["vendor/hardware/carsenze/*.aidl"],
+    stability: "vintf",
+    owner: "vqtrong",
+    backend: {
+        cpp: {
+            enabled: true,
+        },
+        java: {
+            sdk_version: "module_current",
+        },
+    },
+}

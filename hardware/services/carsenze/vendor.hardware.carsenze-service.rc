@@ -1,0 +1,8 @@
+service vendor.hardware.carsenze-service /vendor/bin/hw/vendor.hardware.carsenze-service
+        interface aidl vendor.hardware.carsenze.ICarsenze/default
+        class hal
+        user system
+        group system
+
+
+
